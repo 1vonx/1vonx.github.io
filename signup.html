@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SkillUp|Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo2.png" alt="logo" style="max-height: 80px; width: 120px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent" aria-controls="navbarContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li>
+                    <a class="nav-link text-uppercase" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pe-3 text-uppercase" href="courses.html">Courses</a>
+                </li>
+            </ul>
+            <a href="login.html" class="btn btn-outline-info nav-btn">Login</a>
+            <a href="signup.html" class="btn btn-outline-info ms-2 active nav-btn">Sign Up</a>
+        </div>
+    </div>
+</nav>
+
+<div class="hero vh-100 w-100 d-flex align-items-center">
+    <div class="container" id="registerForm">
+        <form class="my-3">
+            <div class="row row-cols-2 g-4 justify-content-center">
+                <div class="col">
+                    <label for="firstName" class="visually-hidden">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="col">
+                    <label for="lastName" class="visually-hidden">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <label for="userName" class="visually-hidden">Username</label>
+                    <input type="text" class="form-control" id="userName" placeholder="Username">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <label for="email" class="visually-hidden">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                </div>
+            </div>
+            <div class="row row-cols-2 gx-4 mt-3">
+                <div class="col">
+                    <label for="password" class="visually-hidden">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="col">
+                    <label for="confirmPass" class="visually-hidden">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmPass" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <button class="btn btn-primary text-white">I Agree</button>
+                </div>
+                <div class="col">
+                    <p>By clicking <span class="badge bg-primary bg-opacity-75">Sign Up</span>, you agree to the
+                        <a class="text-decoration-none text-shadow" href="#">Terms and Conditions</a> set out by this site, including Cookie Use.</p>
+                </div>
+            </div>
+            <div class="row row-cols-2 mt-3">
+                <div class="col-12 col-md-6">
+                    <button class="btn btn-primary w-100 text-white">Sign Up</button>
+                </div>
+                <div class="col-12 col-md-6 mt-2 mt-md-0">
+                    <a class="btn btn-outline-light w-100" href="login.html">Login</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p class="m-0 fixed-bottom d-flex justify-content-center small text-white shadow-lg text-shadow">Copyright © SkillUp 2022</p>
+</footer>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
