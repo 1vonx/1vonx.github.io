@@ -1,1 +1,1 @@
-# HCI Project: E-Learning System (SkillUp) - hi-fi prototype
+# HCI Project: E-Learning System (SkillUp) - lo-fi prototype
